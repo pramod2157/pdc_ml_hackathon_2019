@@ -1,11 +1,20 @@
-Please follow the process to create a Pull Request for the developed code.
+Team Name: Team_Pramod_P
+Team Members: 
+	Pramod Patil
+	Varsha Dhumal
+	Prajakta Chaudhari
 
-Example:
-Team Leader - Amit Sutar
-Branch name - Team_Amit_S
+Instructions to Run the code
+1. Classify Petition category:
+	filename: petition_category_classification_final.py
+	#Please modify the train.json, validation.json
+	python3 petition_category_classification_final.py
+	#output will be dumped in the current working directory
+2. Classify Petition is_victory:
+	filename: isvictory_final_approach.py
+	#modify data_dir variable to path of data_dir
+	python3 isvictory_final_approach.py
+	output will be dumped to data_dir
 
-1. One branch is available per team on repository https://github.com/teamclairvoyant/pdc_ml_hackathon_2019/tree/<BRANCH_NAME>
-2. Every team will fork repo on their respective git account https://github.com/teamclairvoyant/pdc_ml_hackathon_2019
-3. They will develop code & push into their respective local forked repo.
-4. They need to update README.md file with all comments to setup / running the code.
-5. For final submission they will be submitting Pull Request on https://github.com/teamclairvoyant/pdc_ml_hackathon_2019 for respective branch we created in Step1
+-Presentation is in presentation folder
+-Final submission is in the results directory
